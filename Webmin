@@ -1,0 +1,10 @@
+sudo apt update
+sudo apt install wget -y
+wget -q http://prdownloads.sourceforge.net/webadmin/webmin_2.102_all.deb
+sudo dpkg --install webmin_2.102_all.deb
+sudo apt-get -f install -y
+
+
+## After that you can access webmin with your browser and below port:
+
+<YOUR_SERVER_IP>:10000
